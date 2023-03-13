@@ -23,7 +23,7 @@ nav a{
 	text-decoration: none;
 }
 nav a span{
-	color: #000080;
+	color: #008b8b;
 }
 
 .nav-links{
@@ -44,7 +44,7 @@ nav a span{
 	margin: auto;
 	height: 3px;
 	width: 0%;
-	background: #000080;
+	background: #008b8b;
 	transition: .4s;
 }
 .nav-links ul li a:hover:after{
@@ -82,8 +82,8 @@ font-size: 55px;
   transition: .6s;
 }
 .text-box a:hover{
- background: #f1f111e1;
- border: 1px solid #f1f111;
+ background: #008b8b;
+ border: 1px solid #008b8b;
 }
 
 nav .fa-solid{
