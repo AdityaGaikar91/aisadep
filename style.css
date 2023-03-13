@@ -105,7 +105,7 @@ nav .fa-solid{
     position: absolute;
     height: 100vh;
     width: 200px;
-    background: transparent;
+    background: #000080;
     top: 0;
     right: -200px;
     text-align: left;
