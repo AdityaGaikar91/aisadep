@@ -71,7 +71,7 @@ font-size: 55px;
    font-size: 14px;
    color: white;
 }
-.text-box a{
+.hero-btn{
   font-size: 14px;
   text-decoration: none;
   color: white;
@@ -82,7 +82,7 @@ font-size: 55px;
   background: transparent;
   transition: .6s;
 }
-.text-box a:hover{
+.hero-btn:hover{
  background: #008b8b;
  border: 1px solid #008b8b;
 }
@@ -168,5 +168,30 @@ p{
 @media(max-width: 700px){
 	.row{
 		flex-direction: column;
+	}
+}
+
+/*call to action*/
+
+.cta{
+	margin: 100px auto;
+	width: 80%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(contactus.png);
+	background-position: center;
+	background-size: cover;
+	border-radius: 10px;
+	text-align: center;
+	padding: 100px 0;
+}
+
+.cta h1{
+	color: #fff;
+	margin-bottom: 40px;
+	padding: 0;
+}
+
+@media(max-width: 700px){
+	.cta h1{
+		font-size: 24px;
 	}
 }
