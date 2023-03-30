@@ -396,73 +396,86 @@ html,body{
 }
 
 /*news-content*/
-.news-content{
-	width: 80%;
-	margin: auto;
-	padding: 60px 0;
-}
-.news-left{
-	flex-basis: 65%;
-}
-.news-left img{
-	width: 100%;
-}
-.news-left h2{
-	color: #222;
-	font-weight: 600;
-	margin: 30px 0;
-}
-.news-left p{
-	color: #999;
-	padding: 0;
-}
-
-
-.news-right{
-	flex-basis: 32%;
-}
-.news-right h3{
-	background: #f44336;
-	color: #fff;
-	text-align: center;
-	padding: 7px 0;
-	font-size: 16px;
-	margin-bottom: 20px;
-}
-.news-right div{
+#blog{
 	display: flex;
+	justify-content: center;
 	align-items: center;
-	justify-content: space-between;
-	color: #555;
-	padding: 8px;
-	box-sizing: border-box;
+	flex-direction: column;
+	padding: 40px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
-
-
-.comment-box{
-	border: 1px solid #ccc;
-	margin: 50px 0;
-	padding: 10px 20px;
-/*	background: #1700FF;*/
+.blog-heading{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
-.comment-box h3{
-	text-align: left;
+.blog-heading span{
+	color: #f33c3c;
 }
-.comment-form input, .comment-form textarea{
+.blog-heading h3{
+	font-size: 2,4rem;
+	color: #2b2b2b;
+	font-weight: 600;
+}
+.blog-container{
+	flex-basis: 48%;
+	border-radius: 10px;
+	margin-bottom: 30px;
+	position: relative;
+	overflow: hidden;
+}
+.blog-box{
+	width: 350%;
+	background-color: #fff;
+	border: 1px solid #ececec;
+	margin: 20px;
+}
+.blog-img{
 	width: 100%;
-	padding: 10px;
-	margin: 15px 0;
-	box-sizing: border-box;
-	border: none;
-	outline: none;
-	background: #f0f0f0;
+	height: auto;
 }
-
-.comment-form button{
-	margin: 10px 0;
+.blog-img img{
+	width: 48%;
+	height: 48%;
+	object-fit: cover;
+	object-position: center;
 }
-
-
+.blog-text{
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+}
+.blog-text span{
+	color: #f33c3c;
+	font-size: 0.9rem;
+}
+.blog-text .blog-title{
+	font-size: 1.3rem;
+	font-weight: 500;
+	color: #272727;
+}
+.blog-text .blog-title:hover{
+	color: #000080;
+	transition: all ease 0.3s;
+}
+.blog-text p{
+	color: #9b9b9b;
+	font-size: 0.9rem;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin: 20px 0px;
+}
+.blog-text a{
+	color: #0f0f0f;
+}
+.blog-text a:hover{
+	color: #f33c3c;
+	transition: all ease 0.3s;
+}
 
 /*------- contact us page --------*/
 
