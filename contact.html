@@ -7,23 +7,14 @@
   <link rel="shortcut icon" type="x-icon" href="images/icon.png">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
-  <title>AISA</title>
-  <script>
-import emailjs from '@emailjs/browser';
+  <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
-export default {
-  methods: {
-    sendEmail() {
-      emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', this.$refs.form, 'YOUR_PUBLIC_KEY')
-        .then((result) => {
-            console.log('SUCCESS!', result.text);
-        }, (error) => {
-            console.log('FAILED...', error.text);
-        });
-    }
-  }
-}
+<script type="text/javascript">
+  emailjs.init('LpVbY4jYtzZkX71Jl')
 </script>
+
+  <title>AISA</title>
 </head>
 <body>
    <section class="sub-header">
